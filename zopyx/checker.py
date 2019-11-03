@@ -21,7 +21,7 @@ def check_host(host):
     print(f"{host:60s} {diff.days}")
 
 
-def check_certs(domains_filenamei=domains_filename):
+def check_certs(domains_filename=domains_filename):
 
     print(f"Reading configuration {domains_filename}")
     with open(domains_filename) as fp:
@@ -34,5 +34,8 @@ def check_certs(domains_filenamei=domains_filename):
             check_host(line)
 
 
-if __name__ == '__main__':
+def main():
     import plac; plac.call(check_certs)
+
+if __name__ == '__main__':
+    main()

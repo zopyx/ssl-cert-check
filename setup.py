@@ -10,6 +10,9 @@ setup(
    author='Andreas Jung',
    author_email='info@zopyx.com',
    packages=['zopyx'],  #same as name
-   install_requires=required
+   install_requires=required,
+   entry_points = {
+        'console_scripts': ['ssl-check-domains=zopyx.checker:main']
+   }
 )
 
