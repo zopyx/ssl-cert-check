@@ -1,0 +1,3 @@
+[console_scripts]
+check_tls_certs = check_tls_certs:main
+
