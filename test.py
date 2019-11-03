@@ -25,7 +25,8 @@ def check_certs():
 
     with open(fn) as fp:
         for line in fp:
-            line, dummy = line.strip().split(' ', 1)
+            if ' ' in line:
+                line, dummy = line.strip().split(' ', 1)
             if line:
                 check_host(line)
 
