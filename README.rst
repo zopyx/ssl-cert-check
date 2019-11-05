@@ -20,7 +20,13 @@ Requirements
 
 - Python 3.6 or higher
 
+Homepage
+--------
+
+- https://github.com/zopyx/ssl-cert-check
+
 Author
 ------
 Andreas Jung/ZOPYX
+www.zopyx.com
 info@zopyx.com
