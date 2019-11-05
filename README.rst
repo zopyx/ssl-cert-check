@@ -27,6 +27,6 @@ Homepage
 
 Author
 ------
-Andreas Jung/ZOPYX
-www.zopyx.com
-info@zopyx.com
+| Andreas Jung/ZOPYX
+| www.zopyx.com
+| info@zopyx.com

@@ -10,7 +10,7 @@ with open(path.join('README.rst'), encoding='utf-8') as f:
 
 setup(
    name='zopyx.check_ssl_domains',
-   version='1.0.2',
+   version='1.0.3',
    long_description=long_description,
    description='Check expiration date of SSL/TLS certs on web host',
    author='Andreas Jung',
