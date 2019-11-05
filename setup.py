@@ -1,9 +1,10 @@
 from setuptools import setup
+from os import path
 
 with open('requirements.txt') as f:
     required = f.read().splitlines()
 
-with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
+with open(path.join('README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
