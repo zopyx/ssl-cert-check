@@ -14,7 +14,7 @@ def check_host(host):
         cert = CertInfo(host, 443)
         expires = cert.expire()
     except Exception as e:
-        print(f"Error with {host}")
+        print(f"Error with {host}: {e}")
         return 
     expires = parsedate_to_datetime(expires)
     diff = expires - now
